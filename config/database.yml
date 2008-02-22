@@ -1,0 +1,13 @@
+---
+# This is a sample database file for the ActiveRecord ORM
+:development: &defaults
+  :adapter: sqlite3
+  :database: lumber_mill.db
+
+:test:
+  <<: *defaults
+  :database: lumber_mill.test.db
+
+:production:
+  <<: *defaults
+  :database: lumber_mill.production.db

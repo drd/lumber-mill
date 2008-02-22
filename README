@@ -1,0 +1,19 @@
+ok:
+- navigation broken down by date.
+- text search.
+- user tracking (frequent posts, etc).
+- redisplay link logs
+- schema
+ - lines
+  - spoken_at
+  - body
+  - nick
+  - message_type
+
+no:
+- geolocators.
+
+implementation:
+
+✓ merb w/ AR
+
