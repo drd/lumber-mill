@@ -4,11 +4,11 @@ ok:
 - user tracking (frequent posts, etc).
 - redisplay link logs
 - schema
- - lines
-  - spoken_at
-  - body
-  - nick
-  - message_type
+ ✓ lines
+  ✓ spoken_at
+  ✓ body
+  ✓ nick
+  ✓ message_type
 
 no:
 - geolocators.
